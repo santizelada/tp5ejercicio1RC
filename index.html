@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -53,16 +51,15 @@
         </div>
     </nav>
     <main>
-        <div>
-            <h1>Práctica de DOM</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quo sapiente tenetur omnis minus corrupti porro illum nobis consectetur quaerat error asperiores ad fuga quibusdam tempore ratione soluta cumque explicabo? Sint, aspernatur rem iusto odit velit itaque quia obcaecati rerum quas. Consequuntur ratione quaerat cumque, molestiae praesentium quisquam omnis deleniti laudantium quod. Officiis neque dicta sit aliquam qui distinctio molestiae. </p>
-        <button type="button" class="btn btn-primary" onclick="cambiarTitulo()">Cambiar título</button>
-        </div>
-
-        <div>
-            <h2>Manipular elementos HTML desde Javascript</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quo sapiente tenetur omnis minus corrupti porro illum nobis consectetur quaerat error asperiores ad fuga quibusdam tempore ratione soluta cumque explicabo? Sint, aspernatur rem iusto odit velit itaque quia obcaecati rerum quas. Consequuntur ratione quaerat cumque, molestiae praesentium quisquam omnis deleniti laudantium quod. Officiis neque dicta sit aliquam qui distinctio molestiae. </p>
-        <button type="button" class="btn btn-outline-primary">Ver más...</button>
+        <form action="">
+            <input type="number" id="numero" name="numero" required placeholder="Type in your guess">
+            <input type="submit" value="Send">
+        </form>
+        <div class="buttonContainer">
+            <button class="batButton">
+                <span>PLAY NOW</span>
+            </button>
+        </div>  
     </div>
     </main>
     <footer>
