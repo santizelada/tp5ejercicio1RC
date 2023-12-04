@@ -53,7 +53,13 @@
     <main>
         <form action="">
             <input type="number" name="numero" required placeholder="Type in your guess" id="guessButton">
-            <button type="button" onclick="numeroAdivinado()" id="sendButton"> Guess </button>
+            <button class="pushable" type="button" onclick="numeroAdivinado()" id="sendButton">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front">
+                    SEND
+                </span>
+            </button>
         </form>
         <div class="buttonContainer">
             <button class="batButton">
