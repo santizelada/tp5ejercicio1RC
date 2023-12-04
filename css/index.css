@@ -70,8 +70,11 @@ input:valid {
     -webkit-mask-size: 100%;
     cursor: pointer;
     background-color: transparent;
-    transform: translateY(8px)
+    transform: translateY(8px);
+
 }
+
+
 
 .batButton:after {
     content: '';
@@ -103,6 +106,20 @@ input:valid {
 
 .batButton:hover span {
     color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .batButton span{
+        top: 47%;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .batButton span{
+        top: 46%;
+
+    }
 }
 
 .batButton:before {
